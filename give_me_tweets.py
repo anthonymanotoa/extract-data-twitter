@@ -25,6 +25,7 @@ while count <= 3000:
             continue
         f = open('./onepiece.txt', 'a', encoding='utf-8')
         f.write(tweet.full_text + '\n')
+        # f.write(tweet.full_text + '\n' + '*'*50 + '\n') # usa esto si quieres tener separados los tweets
         f.close
         count += 1
     id = tweet.id
