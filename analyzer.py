@@ -4,7 +4,7 @@ exclude_words = ['el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'al', 'd
 
 # Generar un diccionario con todas las palabras
 top_words = {}
-tweets_topic = open('./onepiece.txt', encoding='utf-8')
+tweets_topic = open('./premiosplatzi.txt', encoding='utf-8')
 for line in tweets_topic:
     words = line.strip().lower().split()
     for word in words:
